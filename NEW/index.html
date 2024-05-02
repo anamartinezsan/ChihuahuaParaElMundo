@@ -1,30 +1,55 @@
 <style>
-    @font-face{
-        font-family: "rocGrotesk";
-        src: url(https://chihuahuaparaelmundo.chihuahua.gob.mx/images/Fontspring-DEMO-rocgroteskcomp-regular.otf) format(otf);
-        
+    @font-face {
+        font-family: "ElCamino";
+        src: url('https:chihuahuaparaelmundo.chihuahua.gob.mx/images/ElCamino.otf') format("opentype");
+
     }
-    .banner{
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://chihuahuaparaelmundo.chihuahua.gob.mx/images/ElCamino.otf');
+
+    .montserrat-font {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .titulo {
+        font-family: 'ElCamino';
+    }
+
+    .montse {
+        font-family: 'Montserrat';
+    }
+
+    .banner {
         -moz-user-select: none;
--khtml-user-select: none;
--webkit-user-select: none;
-user-select: none;
-background-image: url(img/diegoValles.svg);
-min-height: 680px;
-background-size: cover;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        background-image: url(img/diegoValles.svg);
+        min-height: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    .over1{
+
+    .over1 {
         position: absolute;
         margin-left: 65%;
-        padding: 5%;
+        padding: 3%;
     }
 </style>
-<img src="img/">
+
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 <img src="img/g231.svg" width="100%">
 <div class="banner">
-   
+
     <div class="over1">
-        <h3 style="font-family: 'rocGrotesk';">DIEGO VALLES Y FAMILIA</h3>
-        <p style="color: #fef9e6; font-family: 'rocGrotesk';">La deidad por excelencia en la cosmovisión Mesoamericana es Quetzalcóatl, la Serpiente Emplumada. El culto a esta deidad se extendió por todo el continente y cobró un arraigo importante en la región del norte conocida como Aridoamérica. Aquí en los grandes desiertos del norte, el Desierto Chihuahuense y el Desierto de Sonora, donde habitan decenas de especies de serpientes no fue difícil homologar la representación de Quetzalcóatl para las culturas nativas...</p>
+        <center><img src="https://chihuahuaparaelmundo.chihuahua.gob.mx/images/dValles.svg" style="color: #fef9e6 !important;"></center>
+        <p style="color: #fef9e6; font-size: 1.5vw; text-align: justify;" class="montse">La deidad por excelencia en la
+            cosmovisión Mesoamericana es Quetzalcóatl, la Serpiente Emplumada. El culto a esta deidad se extendió por
+            todo el continente y cobró un arraigo importante en la región del norte conocida como Aridoamérica. Aquí en
+            los grandes desiertos del norte, el Desierto Chihuahuense y el Desierto de Sonora, donde habitan decenas de
+            especies de serpientes no fue difícil homologar la representación de Quetzalcóatl para las culturas
+            nativas...</p>
     </div>
 </div>
